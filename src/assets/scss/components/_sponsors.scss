@@ -1,0 +1,26 @@
+.sponsors {
+  &__title {
+    text-align: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  &__row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  &__btn{
+    display: flex;
+    justify-content: center;
+  }
+}

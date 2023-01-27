@@ -1,0 +1,134 @@
+.event{
+  padding-top: 160px;
+  background: linear-gradient(180deg, rgba(56, 29, 219, 0.05) 0%, rgba(56, 29, 219, 0) 100%);
+  &__title{
+    margin-bottom: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #222222;
+  }
+}
+
+.tabs {
+  &__header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  &__tab {
+    border-bottom: 4px Solid rgba(#381DDB, .1);
+    padding-bottom: 20px;
+  }
+
+  &__day {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    color: #222222;
+    opacity: 0.5;
+  }
+
+  &__date {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    opacity: 0.2;
+
+  }
+}
+
+.tab {
+  border: 1px solid #E0E0E0;
+  border-radius: 24px;
+  overflow: hidden;
+
+  &__caption{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #222222;
+  }
+
+  &__content{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+  }
+
+
+
+  &__main {
+    padding: 40px 0;
+  }
+
+  &__row, &__header{
+    padding: 0 40px;
+    gap: 30px;
+    grid-template-columns: 230px 1fr 300px 120px;
+    align-items: center;
+    display: grid;
+  }
+
+  &__row {
+    &--hr {
+      border: 1px solid #E0E0E0;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__column {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  &__header {
+    padding: 41px 40px;
+    background: rgba(#381DDB, 0.05);
+  }
+
+  &__buttons {
+    text-align: right;
+  }
+}
+
+.speaker{
+  display: flex;
+  gap: 10px;
+
+  &__image{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+  }
+
+  &__title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    opacity: 0.5;
+  }
+}

@@ -1,4 +1,11 @@
 .header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: #FFFFFF;
+  z-index: 99;
+
   &__wrapper {
     display: flex;
     align-items: center;
@@ -15,17 +22,14 @@
 
   &__navs {
     display: flex;
-    align-items: center;
+    gap: 40px;
+    justify-content: flex-end;
 
     a {
-      font-weight: bold;
-      padding: 14px 24px 16px;
-      border-radius: 10px;
-      transition: background-color 300ms;
-
-      &:hover {
-        background-color: #F6F6F8;
-      }
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: uppercase;
     }
   }
 }

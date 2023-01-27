@@ -1,0 +1,108 @@
+.section.event
+    .container
+        h2.event__title Event Schedule
+        .tabs
+            .tabs__header
+                .tabs__tab
+                    h3.tabs__day Day 01
+                    p.tabs__date 16 August
+                .tabs__tab
+                    h3.tabs__day Day 02
+                    p.tabs__date 17 August
+                .tabs__tab
+                    h3.tabs__day Day 03
+                    p.tabs__date 18 August
+            .tab
+                .tab__header
+                    p.tab__caption Time
+                    p.tab__caption Content
+                    p.tab__caption Speakers
+                    .tab__caption
+                .tab__main
+                    .tab__row
+                        .tab__column
+                            p.tab__time 11:00 AM to 12:00 PM
+                        .tab__column
+                            p.tab__content Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                        .tab__column
+                            .speaker
+                                img.speaker__image(src=require('@images/events/1.png'))
+                                .speaker__content
+                                    p.speaker__title Yui Ronald
+                                    p.speaker__subtitle
+                                        | Booth:
+                                        b  2F12
+                        div.tab__buttons
+                            a.btn.btn--preview Preview
+                                +icon("preview")
+                    .tab__row
+                        .tab__column
+                            p.tab__time 11:00 AM to 12:00 PM
+                        .tab__column
+                            p.tab__content Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                        .tab__column
+                            .speaker
+                                img.speaker__image(src=require('@images/events/1.png'))
+                                .speaker__content
+                                    p.speaker__title Yui Ronald
+                                    p.speaker__subtitle
+                                        | Booth:
+                                        b  2F12
+                        div.tab__buttons
+                            a.btn.btn--preview Preview
+                                +icon("preview")
+                    hr.tab__row.tab__row--hr
+                    .tab__row
+                        .tab__column
+                            p.tab__time 12:00 PM to 03:00 PM
+                        .tab__column
+                            p.tab__content Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.
+                        .tab__column
+                            .speaker
+                                img.speaker__image(src=require('@images/events/2.png'))
+                                .speaker__content
+                                    p.speaker__title Bob John
+                                    p.speaker__subtitle
+                                        | Booth:
+                                        b  3G12
+                            .speaker
+                                img.speaker__image(src=require('@images/events/1.png'))
+                                .speaker__content
+                                    p.speaker__title Yui Ronald
+                                    p.speaker__subtitle
+                                        | Booth:
+                                        b  2F12
+                            .speaker
+                                img.speaker__image(src=require('@images/events/3.png'))
+                                .speaker__content
+                                    p.speaker__title Emma Satoshi
+                                    p.speaker__subtitle
+                                        | Booth:
+                                        b  2A35
+                        div.tab__buttons
+                            a.btn.btn--live Live
+                                +icon("live")
+                    hr.tab__row.tab__row--hr
+                    .tab__row
+                        .tab__column
+                            p.tab__time 03:00 PM to 04:00 PM
+                        .tab__column
+                            p.tab__content Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                        .tab__column
+                            .speaker
+                                img.speaker__image(src=require('@images/events/4.png'))
+                                .speaker__content
+                                    p.speaker__title Sasha Jackson
+                                    p.speaker__subtitle
+                                        | Booth:
+                                        b   2F18
+                            .speaker
+                                img.speaker__image(src=require('@images/events/5.png'))
+                                .speaker__content
+                                    p.speaker__title Diana Brock
+                                    p.speaker__subtitle
+                                        | Booth:
+                                        b   2F24
+                        div.tab__buttons
+                            a.btn.btn--upcoming Upcoming
+                                +icon("upcoming")

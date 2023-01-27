@@ -1,0 +1,63 @@
+.banner {
+  position: relative;
+  color: get-color(white);
+  text-align: center;
+
+  &__backgound {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 1;
+    padding-top: 225px;
+    padding-bottom: 53px;
+    min-height: 964px;
+    display: flex;
+    flex-direction: column;
+    gap: 122px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-end;
+  }
+
+  &__title {
+
+  }
+
+  &__text {
+    font-size: 24px;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  &__time {
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 176px;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: transparent;
+
+    & > span {
+      -webkit-text-stroke: 2px #fff;
+    }
+  }
+}

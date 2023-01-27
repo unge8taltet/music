@@ -1,0 +1,70 @@
+.singers {
+  &__items {
+    display: grid;
+    align-items: center;
+    grid-template-columns: minmax(470px, 1fr) minmax(400px, 670px);
+    gap: 30px;
+  }
+
+  &__item {
+    &:last-child {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+  &__images {
+    display: grid;
+    gap: 30px;
+
+    &:first-child {
+      grid-template-columns: minmax(270px, 370px) minmax(170px, 270px);
+      align-items: flex-end;
+
+      img:last-child {
+        margin-bottom: 21px;
+      }
+    }
+
+    &:last-child {
+      grid-template-columns: minmax(170px, 270px) minmax(270px, 370px);
+
+      img:first-child {
+        margin-top: 21px;
+      }
+    }
+  }
+
+  &__image {
+    position: relative;
+    border-radius: 20px;
+    object-fit: cover;
+
+    img {
+      position: relative;
+      z-index: 1;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 80%;
+      height: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 40px;
+      background: rgba(#000, .5);
+
+      opacity: 0.5;
+      filter: blur(40px);
+      border-radius: 20px;
+      z-index: 0;
+    }
+  }
+
+  &__title{
+    margin-bottom: 32px;
+  }
+
+}

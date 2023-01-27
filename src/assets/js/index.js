@@ -1,6 +1,25 @@
+import {Swiper} from "swiper";
 
 
 window.addEventListener("DOMContentLoaded", () => {
-    console.log(true)
+    new Swiper('.explore__swiper', {
+        spaceBetween: 30,
+        slidesPerView: "auto",
+        centeredSlides: true,
+        initialSlide: 1,
+    });
+
+    new Swiper('.testimonials__swiper', {
+        spaceBetween: 30,
+        slidesPerView: "auto",
+        centeredSlides: true,
+        initialSlide: 1
+    });
+    new Swiper('.see__swiper', {
+        spaceBetween: 30,
+        slidesPerView: "auto",
+        centeredSlides: true,
+        initialSlide: 2,
+    });
 
 })

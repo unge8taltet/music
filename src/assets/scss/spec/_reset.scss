@@ -18,7 +18,7 @@ body {
     font-size: 16px;
     font-family: $font;
     line-height: 1.5;
-    color: $color-main;
+    color: #000;
     word-wrap: break-word;
     background-color: #fff;
     min-width: 320px;
@@ -84,7 +84,7 @@ select,
 textarea {
     width: 100%;
     font-family: inherit;
-    color: $color-main;
+    color: inherit;
     background-color: #fff;
     border: none;
 

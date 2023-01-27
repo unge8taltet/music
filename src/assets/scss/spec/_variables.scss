@@ -1,12 +1,23 @@
 $grid-breakpoints: (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px,
-    xxl: 1500px,
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1500px,
 );
 
-$color-main: #1D1D1F;
 $font: "Raleway", sans-serif;
 $font-second: "Montserrat", sans-serif;
+
+$colors: (
+        pink: (
+                0: #FFA3A3,
+        ),
+        white: (
+                0: #FFFFFF
+        ),
+        blue: (
+                0: #381DDB
+        )
+);

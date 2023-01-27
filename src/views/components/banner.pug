@@ -1,0 +1,23 @@
+.section.banner
+    img.banner__backgound(src=require('@images/banner.png'))
+    .banner__inner
+        .banner__wrapper
+            h1.banner__title The Best experience of
+                br
+                |
+                span.color-pink music
+                |  in 2021
+            p.banner__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ligula
+                br
+                | placerat, eleifend ex non, vehicula libero. Suspendisse eget tellus lectus.
+            .banner__buttons
+                a(href="#").btn.btn--started Get Started
+                a(href="#").btn.btn--video
+                    +icon("video")
+                    |Watch Video
+
+        .banner__time
+            span 22d
+            span 13h
+            span 46m
+            span 18s

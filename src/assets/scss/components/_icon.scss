@@ -2,7 +2,81 @@
   display: inline-block;
 
   &--logo {
-    width: 264px;
-    height: 45px;
+    width: 125px;
+    height: 30px;
+    color: #fff;
+  }
+
+  &--video {
+    width: 46px;
+    height: 46px;
+    color: #fff;
+  }
+
+  &--pop {
+    width: 40px;
+    height: 40px;
+    color: #DB841D;
+  }
+
+  &--folk {
+    width: 40px;
+    height: 40px;
+    color: #FC5252;
+  }
+
+  &--instrumental {
+    width: 40px;
+    height: 40px;
+    color: #381DDB;
+  }
+
+  &--rock {
+    width: 40px;
+    height: 40px;
+    color: #C00096;
+  }
+
+  &--jazz {
+    width: 40px;
+    height: 40px;
+    color: #84C4FF;
+  }
+  &--more{
+    width: 24px;
+    height: 24px;
+  }
+
+  &--preview{
+    width: 20px;
+    height: 20px;
+  }
+  &--live{
+    width: 22px;
+    height: 16px;
+  }
+  &--upcoming{
+    width: 20px;
+    height: 20px;
+  }
+  &--open{
+    width: 22px;
+    height: 17px;
+  }
+  &--closed{
+    width: 22px;
+    height: 17px;
+  }
+  &--like{
+    width: 20px;
+    height: 18px;
+  }
+  &--comments{
+    width: 20px;
+    height: 19px;
+  }
+  &__prew, &__next{
+    width: 56px;
+    height: 56px;
   }
 }

@@ -1,7 +1,35 @@
+@import "functions";
+
+* {
+  font-family: $font-second;
+}
+
 p {
   font-family: $font;
 }
 
 h1, h2, h3, h4, h5, h6, a, button, input {
   font-family: $font-second;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 130%;
+  color: #222222;
+  margin-bottom: 60px;
+}
+
+@each $color-name, $color in $colors{
+  .color-#{$color-name} {
+    color: get-color($color-name, 0);
+  }
 }
