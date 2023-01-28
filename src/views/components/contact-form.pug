@@ -1,0 +1,25 @@
+.contact-form
+    .contact-form__sections
+        .contact-form__section
+            .contact-form__content
+                h2.contact-form__title Contact us
+                p.contact-form__subtitle Have an inquiry? We’ll be happy to assist you
+                .contact-form__items
+                    .contact-form__item
+                        +icon('tel')
+                        p.contact-form__text +92 333 6527366
+                    .contact-form__item
+                        +icon('email')
+                        p.contact-form__text abuzer@greelogix.com
+                    .contact-form__item
+                        +icon('location')
+                        p.contact-form__text Plot 252, Block L Phase 2 Johar Town, Lahore, PK
+        .contact-form__section
+            .contact-form__content
+                h2.contact-form__details Fill in your details
+                span.contact-form__text-field Name
+                input.contact-form__form(type="name" name="name" required)
+                span.contact-form__text-field Email
+                input.contact-form__form(type="email" name="email" required)
+                span.contact-form__text-field Message
+                input.contact-form__form(type="text" name="message" required)

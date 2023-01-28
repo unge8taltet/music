@@ -75,8 +75,28 @@
     width: 20px;
     height: 19px;
   }
-  &__prew, &__next{
-    width: 56px;
-    height: 56px;
+  &--tel{
+    width: 18px;
+    height: 18px
+    }
+  &--email{
+    width: 20px;
+    height: 18px;
+  }
+  &--location{
+    width: 18px;
+    height: 21px
+  }
+  &--facebook{
+    width: 13px;
+    height: 25px
+  }
+  &--twitter{
+    width: 25px;
+    height: 20px
+  }
+  &--in{
+    width: 22px;
+    height: 22px
   }
 }

@@ -1,5 +1,5 @@
 import {Swiper} from "swiper";
-
+import "./fixes"
 
 window.addEventListener("DOMContentLoaded", () => {
     new Swiper('.explore__swiper', {
