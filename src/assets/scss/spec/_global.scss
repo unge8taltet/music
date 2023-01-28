@@ -1,3 +1,8 @@
 img, video {
   max-width: 100%;
 }
+
+.content {
+  position: relative;
+  z-index: 1;
+}

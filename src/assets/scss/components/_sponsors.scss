@@ -1,4 +1,6 @@
 .sponsors {
+  position: relative;
+
   &__title {
     text-align: center;
   }
@@ -19,8 +21,29 @@
     justify-content: space-between;
     padding: 0 50px;
   }
+
   &__btn{
     display: flex;
     justify-content: center;
+  }
+}
+
+.sponsors-decorations {
+  &__image {
+    position: absolute;
+    z-index: 0;
+
+    &:nth-child(1) {
+      top: 62px;
+
+      // 105px - Растояние от контейнера
+      // 301px - Ширина декорации
+      left: calc(var(--cp) - 105px - 301px);
+    }
+
+    &:nth-child(2) {
+      bottom: 140px;
+      right: calc(var(--cp) - 175px - 111px);
+    }
   }
 }

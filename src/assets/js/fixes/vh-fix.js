@@ -1,5 +1,5 @@
 function calcOffsetContainer() {
-    let modificator = 0
+    let modificator = 32
 
     const containerWidth = document.querySelector('.container').clientWidth + modificator
     let containerOffset = (window.innerWidth - containerWidth) / 2 || 0

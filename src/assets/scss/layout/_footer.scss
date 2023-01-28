@@ -1,22 +1,27 @@
-.footer{
+.footer {
   background-color: #222222;
   padding-top: 40px;
   color: #FFFFFF;
-  &__block{
+  padding-bottom: 35px;
+
+  &__block {
     display: grid;
 
     grid-template-columns: 70% 1fr 1fr;
     padding-top: 55px;
   }
-  &__navs{
+
+  &__navs {
     display: flex;
     gap: 30px;
   }
-  &__icon{
+
+  &__icon {
     gap: 30px;
     display: flex;
   }
-  &__text{
+
+  &__text {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
