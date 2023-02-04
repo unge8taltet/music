@@ -1,4 +1,5 @@
 .singers {
+  position: relative;
   &__items {
     display: grid;
     align-items: center;
@@ -65,5 +66,20 @@
   &__title{
     margin-bottom: 32px;
   }
+}
+.singers-decorations {
+  &__image {
+    position: absolute;
+    z-index: 0;
 
+    &:nth-child(1) {
+      bottom: -44px;
+      left: calc(var(--cp) - 128px - 106px);
+    }
+
+    &:nth-child(2) {
+      top: 104px;
+      right: calc(var(--cp) - 132px - 301px);
+    }
+  }
 }

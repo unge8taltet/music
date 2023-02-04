@@ -1,5 +1,37 @@
 .explore {
+  position: relative;
   &__title {
     margin-bottom: 60px;
+  }
+}
+.explore-decorations {
+  &__image {
+    position: absolute;
+
+
+    &:nth-child(1) {
+      top: 40px;
+
+      // 105px - Растояние от контейнера
+      // 301px - Ширина декорации
+      left: calc(var(--cp) - 195px - 101px);
+    }
+    &:nth-child(2) {
+      bottom: -99px;
+
+      // 105px - Растояние от контейнера
+      // 301px - Ширина декорации
+      left: calc(var(--cp) - 63px - 160px);
+    }
+
+
+    &:nth-child(3) {
+      top: 105px;
+      right: calc(var(--cp) - 176px - 39px);
+    }
+    &:nth-child(4) {
+      bottom: 4px;
+      right: calc(var(--cp) - 295px - 26px);
+    }
   }
 }

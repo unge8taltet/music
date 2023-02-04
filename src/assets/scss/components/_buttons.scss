@@ -115,13 +115,8 @@
     &:hover{
       display: flex;
       align-items: center;
-      padding: 18px 34px;
-      height: 56px;
       background: #381DDB;
       border-radius: 5px;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 20px;
       color: #FFFFFF;
     }
   }
@@ -139,4 +134,19 @@
     line-height: 20px;
     color: #FFFFFF;
   }
+
+  &--contact{
+    justify-content: center;
+    align-items: center;
+    width: 570px;
+    height: 56px;
+    background: #381DDB;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
 }

@@ -1,32 +1,38 @@
 .section.explore
-    .container
-        h2.explore__title
-            span.color-blue Explore
-            |  By Category
-    .swiper.explore__swiper
-        .swiper-wrapper
-            .swiper-slide.instrument
-                .instrument__inner
-                    +icon('pop')
-                    h3.instrument__title Pop
-                    p.instrument__text Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
-            .swiper-slide.instrument
-                .instrument__inner
-                    +icon('folk')
-                    h3.instrument__title Folk
-                    p.instrument__text Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
-            .swiper-slide.instrument
-                .instrument__inner
-                    +icon('instrumental')
-                    h3.instrument__title Instrumental
-                    p.instrument__text Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
-            .swiper-slide.instrument
-                .instrument__inner
-                    +icon('rock')
-                    h3.instrument__title Rock
-                    p.instrument__text Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
-            .swiper-slide.instrument
-                .instrument__inner
-                    +icon('jazz')
-                    h3.instrument__title Jazz
-                    p.instrument__text Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
+    .explore-decorations
+        img(src=require('@images/decorations/explore/1.svg')).explore-decorations__image
+        img(src=require('@images/decorations/explore/2.svg')).explore-decorations__image
+        img(src=require('@images/decorations/explore/3.svg')).explore-decorations__image
+        img(src=require('@images/decorations/explore/4.svg')).explore-decorations__image
+    .content
+        .container
+            h2.explore__title
+                span.color-blue Explore
+                |  By Category
+        .swiper.explore__swiper
+            .swiper-wrapper
+                .swiper-slide.instrument
+                    .instrument__inner
+                        +icon('pop')
+                        h3.instrument__title Pop
+                        p.instrument__text Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
+                .swiper-slide.instrument
+                    .instrument__inner
+                        +icon('folk')
+                        h3.instrument__title Folk
+                        p.instrument__text Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
+                .swiper-slide.instrument
+                    .instrument__inner
+                        +icon('instrumental')
+                        h3.instrument__title Instrumental
+                        p.instrument__text Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
+                .swiper-slide.instrument
+                    .instrument__inner
+                        +icon('rock')
+                        h3.instrument__title Rock
+                        p.instrument__text Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
+                .swiper-slide.instrument
+                    .instrument__inner
+                        +icon('jazz')
+                        h3.instrument__title Jazz
+                        p.instrument__text Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae
